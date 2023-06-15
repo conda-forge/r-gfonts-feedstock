@@ -1,11 +1,11 @@
-About r-gfonts
-==============
+About r-gfonts-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gfonts-feedstock/blob/main/LICENSE.txt)
 
 Home: https://dreamrs.github.io/gfonts/, https://github.com/dreamRs/gfonts
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gfonts-feedstock/blob/main/LICENSE.txt)
 
 Summary: Download 'Google' fonts and generate 'CSS' to use in 'rmarkdown' documents and 'shiny' applications. Some popular fonts are included and ready to use.
 
