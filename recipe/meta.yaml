@@ -1,4 +1,4 @@
-{% set version = '0.2.0' %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gfonts_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gfonts/gfonts_{{ version }}.tar.gz
-  sha256: 72e2eead5280b45aadbbd9385971d65e9866fd659270b1c3c1eb98330f024aa6
+  sha256: b970a877ee5a1b530aa6936309f7d81670ee8caf429c7b778755d8d7e8708dec
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -47,8 +47,7 @@ test:
 about:
   home: https://dreamrs.github.io/gfonts/, https://github.com/dreamRs/gfonts
   license: GPL-3.0-only
-  summary: Download 'Google' fonts and generate 'CSS' to use in 'rmarkdown' documents and 'shiny'
-    applications. Some popular fonts are included and ready to use.
+  summary: Download 'Google' fonts and generate 'CSS' to use in 'rmarkdown' documents and 'shiny' applications. Some popular fonts are included and ready to use.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
